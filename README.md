@@ -7,11 +7,11 @@ Excersices taken from @BrandonBlair Udemy Course [Elegant Automation Frameworks 
 Download python from [Python's official page](https://www.python.org/downloads/)
 
 ## Install Pytest
-1. cute the following command
+1. Execute the following command
 ```
 $ pip install -U pytest
 ```
-2. check that you installed the correct version
+2. Check that you installed the correct version
 ```
 $ pytest --version
 This is pytest version 5.x.y, imported from $PYTHON_PREFIX/lib/python3.7/site-packages/pytest.py
