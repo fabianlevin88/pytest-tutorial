@@ -1,7 +1,7 @@
 # pytest-tutorial
 Good practices for creating and maintaining a good automation framework using python and pytest.
 
-Excersices taken from @BrandonBlair Udemy Course [Elegant Automation Frameworks with Python and Pytest](https://www.udemy.com/course/elegant-automation-frameworks-with-python-and-pytest/)
+Exercises taken from @BrandonBlair Udemy Course [Elegant Automation Frameworks with Python and Pytest](https://www.udemy.com/course/elegant-automation-frameworks-with-python-and-pytest/)
 
 ## Installing python
 Download python from [Python's official page](https://www.python.org/downloads/)
