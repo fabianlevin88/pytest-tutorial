@@ -1,6 +1,14 @@
 from pytest import mark
+from selenium import webdriver
 
 
 @mark.entertainment
-def test_entertainment_functions_as_expected():
-    assert True
+class EntertainmentTests:
+
+    def test_entertainment_functions_as_expected(self):
+        assert True
+
+    @mark.ui
+    def test_ui_navigate_to_entertainment_page(self):
+        browser = webdriver.Chrome("C:\\Users\\Fabian\\PycharmProjects\\pytest-tutorial\\chromedriver")
+        browser.get('https://www.siriusxm.com')
