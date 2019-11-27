@@ -11,6 +11,5 @@ class EngineTests:
 
     @mark.ui
     def test_ui_navigate_to_engine_page(self):
-        browser = webdriver.Chrome("C:\\Users\\Fabian\\PycharmProjects\\pytest-tutorial\\chromedriver")
+        browser = webdriver.Chrome("./chromedriver")
         browser.get('https://en.wikipedia.org/wiki/Engine')
-        browser.close()

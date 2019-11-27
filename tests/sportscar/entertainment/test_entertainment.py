@@ -10,5 +10,5 @@ class EntertainmentTests:
 
     @mark.ui
     def test_ui_navigate_to_entertainment_page(self):
-        browser = webdriver.Chrome("C:\\Users\\Fabian\\PycharmProjects\\pytest-tutorial\\chromedriver")
+        browser = webdriver.Chrome("./chromedriver")
         browser.get('https://www.siriusxm.com')

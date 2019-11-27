@@ -10,5 +10,5 @@ class BodyTests:
 
     @mark.ui
     def test_ui_navigate_to_body_page(self):
-        browser = webdriver.Chrome("C:\\Users\\Fabian\\PycharmProjects\\pytest-tutorial\\chromedriver")
+        browser = webdriver.Chrome("./chromedriver")
         browser.get('http://www.motortrend.com')
