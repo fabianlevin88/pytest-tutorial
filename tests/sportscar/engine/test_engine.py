@@ -1,7 +1,16 @@
 from pytest import mark
+from selenium import webdriver
 
 
 @mark.smoke
 @mark.engine
-def test_engine_functions_as_expected():
-    assert True
+class EngineTests:
+
+    def test_engine_functions_as_expected(self):
+        assert True
+
+    @mark.ui
+    def test_ui_navigate_to_engine_page(self):
+        browser = webdriver.Chrome("C:\\Users\\Fabian\\PycharmProjects\\pytest-tutorial\\chromedriver")
+        browser.get('https://en.wikipedia.org/wiki/Engine')
+        browser.close()
