@@ -1,5 +1,4 @@
 from pytest import mark
-from selenium import webdriver
 
 
 @mark.smoke
@@ -10,6 +9,5 @@ class EngineTests:
         assert True
 
     @mark.ui
-    def test_ui_navigate_to_engine_page(self):
-        browser = webdriver.Chrome("./chromedriver")
-        browser.get('https://en.wikipedia.org/wiki/Engine')
+    def test_ui_navigate_to_engine_page(self, chrome_browser):
+        chrome_browser.get('https://en.wikipedia.org/wiki/Engine')

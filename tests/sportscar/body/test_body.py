@@ -1,5 +1,4 @@
 from pytest import mark
-from selenium import webdriver
 
 @mark.smoke
 @mark.body
@@ -9,6 +8,5 @@ class BodyTests:
         assert True
 
     @mark.ui
-    def test_ui_navigate_to_body_page(self):
-        browser = webdriver.Chrome("./chromedriver")
-        browser.get('http://www.motortrend.com')
+    def test_ui_navigate_to_body_page(self, chrome_browser):
+        chrome_browser.get('http://www.motortrend.com')
