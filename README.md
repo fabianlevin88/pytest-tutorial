@@ -18,5 +18,5 @@ This is pytest version 5.x.y, imported from $PYTHON_PREFIX/lib/python3.7/site-pa
 ```
 ## Install from requirements.txt
 ```
-pip3 install requirements.txt 
+pip3 install -r requirements.txt --user
 ```
