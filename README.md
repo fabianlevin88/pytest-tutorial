@@ -16,3 +16,7 @@ $ pip install -U pytest
 $ pytest --version
 This is pytest version 5.x.y, imported from $PYTHON_PREFIX/lib/python3.7/site-packages/pytest.py
 ```
+## Install from requirements.txt
+```
+pip3 install requirements.txt 
+```
