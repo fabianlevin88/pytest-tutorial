@@ -9,7 +9,7 @@ Download python from [Python's official page](https://www.python.org/downloads/)
 ## Install Pytest
 1. Execute the following command
 ```
-$ pip install -U pytest
+$ pip3 install -U pytest
 ```
 2. Check that you installed the correct version
 ```
