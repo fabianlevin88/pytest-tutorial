@@ -10,6 +10,8 @@ class EnvironmentsTests:
         assert port == 80
 
     @mark.env
+    #@mark.skip(reason="Testing in qa for now")
+    @mark.xfail(reason="testing only in QA for now")
     def test_environment_is_dev(self, app_config):
         base_url = app_config.base_url
         port = app_config.app_port
@@ -17,6 +19,7 @@ class EnvironmentsTests:
         assert port == 8080
 
     @mark.env
+    @mark.skip(reason="Testing in QA for now")
     def test_environment_is_staging(self, app_config):
         base_url = app_config.base_url
         port = app_config.app_port

@@ -20,3 +20,19 @@ This is pytest version 5.x.y, imported from $PYTHON_PREFIX/lib/python3.7/site-pa
 ```
 pip3 install -r requirements.txt --user
 ```
+
+# Pytest commands
+"-v" argument is for verbose execution.
+
+## Basic execution
+```
+pytest -v
+```
+## Executing tests with marks
+```
+pytest -m <mark> -v
+```
+## Executing with details about skipped and expected fail tests
+```
+pytest -rxs -v
+```
